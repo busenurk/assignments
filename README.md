@@ -1,10 +1,7 @@
 # assignments
 
-![](assignment.jpg)
+<img src="/assignment.jpg" style="float: right;" width="500" height="300" title="" />
 
-<div align="right">
-    <img src="/assignment.jpg" width="400px"</img> 
-</div>
 
 Dersiniz ile ilgili .rmd dosyasını bilgisayarınıza indirip tamamlanmış dosyanızın **pdf halini** [UES](https://ues.marmara.edu.tr) ilgili ders altında açılan kısma yüklemeniz gerekmektedir.
 
