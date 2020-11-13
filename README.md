@@ -1,6 +1,6 @@
 # assignments
 
-<img src="/Users/busenursarica/Desktop/Stat Quality Cont Lec Notes/images/assignment.png" style="float: right;" width="500" height="300" title="Factor Table" />
+<img src="/Users/busenursarica/Desktop/Stat Quality Cont Lec Notes/images/assignment.jpg" style="float: right;" width="500" height="300" title="Factor Table" />
 
 Dersiniz ile ilgili .rmd dosyasını bilgisayarınıza indirip tamamlanmış dosyanızın **pdf halini** [UES](https://ues.marmara.edu.tr) ilgili ders altında açılan kısma yüklemeniz gerekmektedir.
 
