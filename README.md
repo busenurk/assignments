@@ -1,5 +1,16 @@
 # assignments
 
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+    <img src="assignment.jpg" alt="">
+  </div>
+  <div>
+    <h2>Some title text</h2>
+    <p>Dersiniz ile ilgili .rmd dosyasını bilgisayarınıza indirip tamamlanmış dosyanızın **pdf halini** [UES](https://ues.marmara.edu.tr) ilgili ders altında açılan kısma yüklemeniz gerekmektedir.</p>
+  </div>
+</div>
+
+
 Dersiniz ile ilgili .rmd dosyasını bilgisayarınıza indirip tamamlanmış dosyanızın **pdf halini** [UES](https://ues.marmara.edu.tr) ilgili ders altında açılan kısma yüklemeniz gerekmektedir.
 
 <img src="/assignment.jpg" style="float: right;" width="500" height="300" title="" />
