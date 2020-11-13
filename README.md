@@ -17,4 +17,4 @@ Başarılar!
   
 <img src="/assignment.jpg" style="float: center;" width="500" height="300" title="" />
 
-<center>
+</center>
