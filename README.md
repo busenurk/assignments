@@ -1,6 +1,6 @@
 # assignments
 
-![Screenshot](screenshot.png)
+![](assignment.jpg)
 
 Dersiniz ile ilgili .rmd dosyasını bilgisayarınıza indirip tamamlanmış dosyanızın **pdf halini** [UES](https://ues.marmara.edu.tr) ilgili ders altında açılan kısma yüklemeniz gerekmektedir.
 
