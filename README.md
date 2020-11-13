@@ -10,6 +10,9 @@ Hatırlatmalar;
 - Sonuç ile ilgili yorumuzunu lütfen kod içerisine yazmayınız.
 - Birbirinin kopyası olan çalışmalar yönetmelikteki ilgili maddelere göre değerlendirilecektir.
 
----
+Başarılar!
 
+---
+<center>
 <img src="/assignment.jpg" style="float: center;" width="500" height="300" title="" />
+<center>
