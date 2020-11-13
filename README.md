@@ -12,4 +12,4 @@ Hatırlatmalar;
 
 --------
 
-<img src="/assignment.jpg" style="float: right;" width="500" height="300" title="" />
+<img src="/assignment.jpg" style="float: center;" width="500" height="300" title="" />
