@@ -1,0 +1,67 @@
+---
+title: "IST3032 - İstatistiksel Kalite Kontrol"
+author: "Ara Sınav"
+date: "08/12/2020, 10:30-12:30"
+output: pdf_document
+---
+
+**No:**
+
+**Ad Soyad:**
+
+- Hesaplamalarınızı her bir soru altında yer alan kodlama alanı içerisinde gerçekleştiriniz. 
+
+- Yorumlarınızı kodlama alanı içerisine yazmayınız. 
+
+- Tüm sorular için yalnızca **qcc** paketini indirmeniz yeterlidir, farklı paket kullanmak isteyenlerin ilgili paketi indirmesi gereklidir. 
+
+- Sisteme yükleyeceğiniz pdf dosyasında tüm yanıtlarınızın düzgün dönüştürüldüğünden emin olunuz, bu konudaki sorumluluk size aittir. 
+
+- Sınav süresince busenur.sarica@marmara.edu.tr adresinden iletişim kurabilirsiniz.
+
+- Tüm sorular eşit ağırlıklıdır.
+
+## Soru 1.
+
+Metal bir bağlantı elemanının çekme dayanımı ile ilgili ölçümler elde edilmiş ve her bir örneklemede 6 gözlem alınmak üzere toplam 30 alt grup ile çalışılarak aşağıdaki sonuçlar elde edilmiştir.
+
+$\sum_{i=1}^{30}\bar{x_{i}}=12870$
+
+$\sum_{i=1}^{30}R_{i}=1350$
+
+X-R kontrol diyagramı için UCL, CL ve LCL hesaplayınız. (Kontrol diyagramlarını çizmeyiniz.)
+
+```{r}
+
+```
+
+## Soru 2.
+**airquality** veri seti **Solar.R** değişkeni için ortalama, mod ve medyan hesaplayarak çarpıklığı yorumlayınız.
+
+
+```{r}
+head(airquality)
+```
+
+
+## Soru 3.
+
+Değişkenliğin istatistiksel proses kontrol açısından önemi nedir? Değişkenlik çeşitlerini birer örnek vererek açıklayınız.
+
+## Soru 4.
+
+Devre kartları için elde edilen gözlemler **circuit** verisinde yer almaktadır. Her alt grupta 100 devre kartı incelenmiş ve gözlenen kusurlu sayıları x değişkenine atanmıştır. Kontrol diyagramını çiziniz, proses kontrol altında mıdır inceleyiniz, gerekiyorsa kontrol altına alınız ve aşamaları yorumlayınız. (Evre I için ilk 26 gözlem, evre II için geri kalan gözlemler kullanılacaktır.)
+
+```{r message=FALSE, warning=FALSE}
+library(qcc)
+data("circuit")
+head(circuit)
+```
+
+\center
+
+_Başarılar!_
+
+_Dr. Busenur Kızılaslan_
+
+\center
