@@ -1,0 +1,90 @@
+---
+title: "IST3032 - İstatistiksel Kalite Kontrol"
+author: "Ara Sınav Mazeret"
+date: "22/12/2020, 10:30-12:30"
+output: pdf_document
+---
+
+**No:**
+
+**Ad Soyad:**
+
+- Hesaplamalarınızı her bir soru altında yer alan kodlama alanı içerisinde gerçekleştiriniz. 
+
+- Yorumlarınızı kodlama alanı içerisine yazmayınız. 
+
+- Tüm sorular için yalnızca **qcc** paketini indirmeniz yeterlidir, farklı paket kullanmak isteyenlerin ilgili paketi indirmesi gereklidir. 
+
+- Sisteme yükleyeceğiniz pdf dosyasında tüm yanıtlarınızın düzgün dönüştürüldüğünden emin olunuz, bu konudaki sorumluluk size aittir. 
+
+- Sınav süresince busenur.sarica@marmara.edu.tr adresinden iletişim kurabilirsiniz.
+
+- Tüm sorular eşit ağırlıklıdır.
+
+- **Yalnızca mazeret sınav başvurusu kabul edilen öğrencilerin sonucu değerlendirilecektir.**
+
+## Soru 1.
+
+Kontrol diyagramı ile hipotez testi arasındaki ilişkiyi açıklayınız.
+
+
+## Soru 2.
+
+$X-S$ kontrol diyagramı için kontrol limitleri $n=5$ için elde edilmiş olup aşağıda paylaşılmıştır.
+
+|$\bar{x}$| |$s$|
+|:-------:|:-------:|:-------:|
+|$UCL=74.014$| |$UCL=0.0196$
+|$CL=74.001$| |$CL=0.0094$
+|$LCL=73.988$| |$LCL=0$|
+
+Proses parametreleri olan $\mu$ ve $\sigma$'yı tahmin ediniz.
+
+```{r}
+#Yanıt 2
+
+```
+
+## Soru 3.
+
+Enjeksiyon kalıp yöntemiyle üretilen parçalar sıkıştırma testine uğratılmaktadır. Her birinde 4 parçanın muayene edildiği 6 örnekleme yapılmıştır. Sıkıştırma kuvvetine ait test sonuçları ($x_{1},x_{2},x_{3},x_{4}$) aşağıdadır. Kontrol diyagramını çizerek sürecin kontrol altında olup olmadığını inceleyiniz, gerekiyorsa kontrol altına almak için gerekli işlemi uygulayınız.
+
+```{r echo=FALSE}
+ornek.no<-1:6
+x1<-c(83,88.6,85.7,80.8,83.4,75.3)
+x2<-c(81.2,78.3,75.8,74.4,78.4,79.9)
+x3<-c(78.7,78.8,84.3,82.5,82.6,87.3)
+x4<-c(75.7,71.0,75.2,74.1,78.2,89.7)
+
+df=data.frame(ornek.no,x1,x2,x3,x4)
+
+DT::datatable(df,options = list(
+            columnDefs = list(list(className = 'dt-center', targets = 0:4))
+            ))
+```
+
+
+```{r}
+#Yanıt 3
+
+
+```
+
+
+## Soru 4.
+
+**airquality** veri seti **Ozone** değişkeninin çarpıklık ve aykırı değer durumunu kutu grafiği (boxplot) yardımı ile inceleyiniz, ve yorumlayınız. Aykırı değer mevcutsa hangi gözlemler olduğunu tespit ediniz.  
+
+
+```{r}
+#Yanıt 4
+```
+
+
+\center
+
+_Başarılar!_
+
+_Dr. Busenur Kızılaslan_
+
+\center
