@@ -1,0 +1,95 @@
+---
+title: "IST3032 - İstatistiksel Kalite Kontrol"
+author: "Final Sınavı"
+date: "27/01/2021, 10:30-12:10"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+```
+There is no substitute for knowledge, W. Edward Deming
+```
+
+**No:**
+
+**Ad Soyad:**
+
+- Hesaplamalarınızı her bir soru altında yer alan kodlama alanı içerisinde gerçekleştiriniz. 
+
+- Yorumlarınızı kodlama alanı içerisine yazmayınız. 
+
+- Sisteme yükleyeceğiniz pdf dosyasında tüm yanıtlarınızın düzgün dönüştürüldüğünden emin olunuz, bu konudaki sorumluluk size aittir.
+
+- Yanıtlarınızı içeren pdf dosyasını sınav süresi sonlanmadan önce UES sistemine yüklemeniz gerekmektedir, e-posta üzerinden gönderilen yanıtlar kabul edilmeyecektir.
+
+- Sınav süresince busenur.sarica@marmara.edu.tr adresinden iletişim kurabilirsiniz.
+
+- Tüm sorular eşit ağırlıklıdır.
+
+
+
+## Soru 1.
+
+Spesifikasyon limitleri $100\pm10$ ve $n=5$ olmak üzere; aşağıda yer alan A ve B prosesleri için $C_{p}$ ve $C_{pk}$ değerlerini hesaplayarak yorumlayınız, hangi prosesi tercih edersiniz? ($n=5$ için $c_{4}=0.94$ alınız.)
+
+
+| Proses A|Proses B|
+|:-------:|:------:|
+|$\bar{\bar{x}}_{A}=100$|$\bar{\bar{x}}_{B}=105$
+|$\bar{S}_{A}=3$|$\bar{S}_{B}=1$
+
+**Uyarı!** İşlemleri tanımlarken parantez kullanmaya özen gösterin, işlem önceliği hata yapmanıza neden olabilir.)
+
+```{r}
+## Yanıt 1.
+
+```
+
+
+<br>
+
+## Soru 2.
+
+$N=100$, $n=25$ ve kabul sayısı $c=4$ olan basit örnekleme planı için kusurlu oranı $AQL=0.10$ olması durumunda üretici riskini bulunuz. OC eğrisini çizerek ($AQL,1-\alpha$) noktasını gösteriniz. Elde ettiğiniz bilgiyi yorumlayınız. 
+
+```{r}
+## Yanıt 2.
+
+```
+
+
+<br>
+
+## Soru 3. 
+
+X-R ve X-S kontrol diyagramları arasındaki fark nedir? Açıklayınız.
+
+Yanıt 3; 
+
+<br>
+
+
+## Soru 4. 
+
+Bir kimyasal proseste her iki dakikada bir ölçülen ısı değerleri ch_data aşağıda yer almaktadır. $\mu_{0}=950$, $\lambda=0.1$ ve $L=2.7$ için EWMA kontrol diyagramını çiziniz. Proses kontrol altında mıdır? (Yalnızca diyagramı çizerek yorumlayınız, ekstra işlem yapmayınız.)
+
+```{r}
+ch_data<-c(953,945,972,945,975,970,959,973,940,936,985,973,955,950,948,957,940,933,965,973,949,941,966,966,934,937,946,952,935,941,937,946,954,935,941,933,960,968,959,956,959,939,948,958,963,973,949,942,965,962,948,937,955,927,940,962,963,943,950,938,958,955,947,941,938,945,963,967,969,981,952,931,928,937,950,970,933,960,934,927)
+
+```
+
+
+```{r}
+## Yanıt 4.
+
+```
+
+
+\center
+
+_Başarılar!_
+
+_Dr. Busenur Kızılaslan_
+
+\center
