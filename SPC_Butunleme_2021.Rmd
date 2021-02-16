@@ -1,0 +1,116 @@
+---
+title: "IST3032 - İstatistiksel Kalite Kontrol"
+author: "Bütünleme Sınavı"
+date: "16/02/2021, 10:30-12:10"
+output:
+  pdf_document: default
+html_document:
+  df_print: paged
+---
+
+```
+
+Without data, you're just another person with an opinion. 
+
+W. Edward Deming
+
+```
+
+
+
+**No:**
+  
+**Ad Soyad:**
+  
+- Hesaplamalarınızı her bir soru altında yer alan kodlama alanı içerisinde gerçekleştiriniz, soru sıralamasını değiştirmeyiniz. 
+
+- Yorumlarınızı kodlama alanı içerisine yazmayınız. 
+
+- Sisteme yükleyeceğiniz pdf dosyasında tüm yanıtlarınızın **düzgün ve tam** dönüştürüldüğünden emin olunuz, bu konudaki sorumluluk size aittir.
+
+- Yanıtlarınızı içeren pdf dosyasını sınav süresi sonlanmadan önce UES sistemine yüklemeniz gerekmektedir, **e-posta üzerinden gönderilen yanıtlar kesinlikle kabul edilmeyecektir.**
+
+- Sınav süresince busenur.sarica@marmara.edu.tr adresinden iletişim kurabilirsiniz.
+
+- Tüm sorular eşit ağırlıklıdır.
+
+- Lütfen sınav süresini dikkatli kullanınız ve gereksiz e-posta atmayınız.
+
+
+
+## Soru 1.
+
+İstatistiksel olarak kontrol altında olan bir süreç $\bar{\bar{X}}=199$ ve $\bar{R}=3.5$ ortalama ve genişlik değerlerine sahiptir. 
+Kontrol diyagramı için alt grup büyüklüğü 4'tür (n=4). Kalite özelliği için spesifikasyon limitleri  $200\pm8$'dir ve normal dağılmıştır. 
+Bu süreç için $C_{p}$ ve $C_{pk}$ yeterlilik indekslerini hesaplayınız.
+
+
+
+```{r}
+## Yanıt 1.
+
+```
+
+
+<br>
+  
+## Soru 2.
+  
+Yayılım ölçüleri ile ilgili olarak aşağıdakilerden hangisi yanlıştır? Açıklayınız.
+  
+  a) Veri çok dağınık olduğunda genişlik değeri kullanılmalıdır.
+  b) Standart sapma büyükse, ortalamaya yakın değerler yüksek bir olasılığa sahiptir.
+  c) Veri büyüklüğü (n) arttıkça, genişlik (R) değerinin doğruluğu azalmaktadır.
+  d) Standart sapma ve genişlik, veri kümesindeki değişkenliği göstermektedir.
+  e) Daha küçük bir standart sapma, daha iyi kalite anlamına gelmektedir.
+
+## Yanıt 2.
+
+
+<br>
+  
+## Soru 3. 
+  
+Aşağıda yer alan OC eğrisini üretici ve tüketici riski açısından yorumlayınız. (N=100)
+  
+  
+```{r}
+
+library(AcceptanceSampling)
+
+oc<-OC2c(n=10,c=0,type="binomial")
+plot(oc, type="l")
+grid(5,lty="solid")
+abline(v=0.10,col="red")
+abline(h=1-0.65,col="red")
+abline(v=0.30,col="blue")
+abline(h=0.028,col="blue")
+text(x = 0.4, 
+     y = 0.1,
+     labels = "(LTPD, beta)")
+text(x = 0.2, 
+     y = 0.4,
+     labels = "(AQL, 1-alfa)")
+```
+
+
+## Yanıt 3. 
+
+<br>
+  
+  
+## Soru 4. 
+  
+İstatistiksel kalite kontrolün yaşamımızdaki önemini örnek vererek **maksimum 3 cümle** ile açıklayınız. 
+(Yaratıcı örnek için +5 puan, maksimum cümle sınırı aşımı için -5 puan)
+
+## Yanıt 4.
+
+
+\center
+
+_Başarılar!_
+
+_Dr. Busenur Kızılaslan_
+
+\center
