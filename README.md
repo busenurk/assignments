@@ -7,7 +7,7 @@ Hatırlatmalar;
 - Dosyanızın pdf halini `ad_soyad` şeklinde isimlendirin.
 - Dosyanızdaki `author` bilgisini doldurunuz. 
 - Dosyanızı göndermeden önce kodunuzun çalışır olduğunu ve çıktınızı kontrol ediniz, **çalışır durumda olmayan kodlar değerlendirilmeyecektir.**
-- Sonuç ile ilgili yorumuzunu lütfen kod içerisine yazmayınız.
+- Sonuç ile ilgili yorumunuzu lütfen kod içerisine yazmayınız.
 - Birbirinin kopyası olan çalışmalar yönetmelikteki ilgili maddelere göre değerlendirilecektir.
 
 Başarılar!
